@@ -18,6 +18,10 @@
 <body>
 	<img id="logo" src="logo.png" />
 	<h1><?php echo "Hello world! Changed"; ?></h1>
+	<?php 
+	 for(int i=0; i<100; i++)
+		echo("$i);
+	?>
 	<?php if(!$link) { ?>
 		<h2>Can't connect to local MySQL Server!</h2>
 	<?php } else { ?>
